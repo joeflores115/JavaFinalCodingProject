@@ -1,5 +1,7 @@
 WAR Card Game
-Description
+
+Description:
+
 This Java-based WAR Card Game is a console application that simulates 
 a simple card game between two players. The game automatically shuffles 
 a deck of 52 cards and deals 26 cards to each player. Players then compete 
@@ -28,6 +30,7 @@ One of the standout features is the automated
 process of shuffling the deck and dealing cards 
 evenly between two players. This ensures a fair start to the game.
 
+
 java
 public Deck() {
     // ...
@@ -41,6 +44,7 @@ public Deck() {
     }
     shuffle(cards);
 }
+
 2. Simple Console-Based Gameplay
 The game provides a straightforward console interface 
 for users to play the game without needing a graphical 
@@ -65,6 +69,7 @@ for(int k = 0; k < 26; k++) {
     }
     // ...
 }
+
 Installation & Usage Instructions:
 -Ensure you have Java Development Kit (JDK) installed on your system.
 
@@ -82,9 +87,11 @@ bash
 java finalCodingProject.App
 Follow the on-screen prompts to play the game.
 
+
 Contributing
 Contributions to improve the WAR Card Game are welcome. 
 Please follow these steps to contribute:
+
 
 -Fork the repository.
 
@@ -96,8 +103,10 @@ Please follow these steps to contribute:
 
 -Submit a pull request with a clear description of your changes.
 
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 Contact Information
 For any queries or suggestions, please contact the project maintainer at: 
